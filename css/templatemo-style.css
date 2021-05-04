@@ -1,4 +1,10 @@
+/*
+    
+TemplateMo 556 Catalog-Z
 
+https://templatemo.com/tm-556-catalog-z
+
+*/
 body,
 h1,
 h2,
@@ -1321,4 +1327,49 @@ select:not([multiple]) {
         -webkit-animation-timing-function: ease-out;
         animation-timing-function: ease-out;
     }
+}
+
+.bb {
+
+    border-color: #57c7bc !important;
+    font-size: 24px !important;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: #fff !important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 8px;
+    border: 1px solid #57c7bc !important;
+
+}
+
+.bb:hover {
+    color: #000 !important;
+    background-color: #fff !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.fast-transition {
+    position: relative;
+    /* For positioning the pseudo-element */
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); */
+
+}
+
+.fast-transition:hover {
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    transition: .5s ease-in-out;
+
+}
+
+.fast-transition:hover::after {
+    /* Show the pseudo-element on hover. */
+    opacity: 1;
 }
