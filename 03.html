@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link rel="shortcut icon" href="img/ICON.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 </head>
@@ -23,24 +24,24 @@
     <div id="loader-wrapper">
         <div id="loader"></div>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+        <div class="loader-section"></div>
+        <div class="loader-section"></div>
 
     </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">الرئيسية <i
-                            class="fa fa-home" aria-hidden="true"> </i></a>
-                </li>
-                <!-- <li class="nav-item">
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">الرئيسية <i
+                                class="fa fa-home" aria-hidden="true"> </i></a>
+                    </li>
+                    <!-- <li class="nav-item">
                 <a class="nav-link nav-link-2" href="videos.html">Videos</a>
             </li>
             <li class="nav-item">
@@ -49,12 +50,12 @@
             <li class="nav-item">
                 <a class="nav-link nav-link-4" href="contact.html">Contact</a>
             </li> -->
-            </ul>
-        </div>
+                </ul>
+            </div>
 
             <a class="navbar-brand" href="index.html">
-                  معايدة                <i class="fas fa-gift mr-2 ml-1"></i>
-             </a>
+                معايدة <i class="fas fa-gift mr-2 ml-1"></i>
+            </a>
         </div>
     </nav>
 
@@ -91,7 +92,7 @@
                         Please support us by making <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a PayPal donation</a>. Nam ex nibh, efficitur eget libero ut, placerat aliquet justo. Cras nec varius leo.
                     </p> -->
                     <div class="mb-4">
-                        <h3 class="tm-text-gray-dark mb-3">الرجاد كتابة الأسم ثم قم بتحميل الصورة </h3>
+                        <h3 class="tm-text-gray-dark mb-3">الرجاء كتابة الأسم ثم قم بتحميل الصورة </h3>
                         <!-- <p>Free for both personal and commercial use. No need to pay anything. No need to make any attribution.</p> -->
                     </div>
 
@@ -164,7 +165,10 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <a type="submit" id="downloadLnk" download="03.jpg" class="buttonDownload "> تحميل </a>
+                            <a id="downloadLnk" download="01.jpg"
+                                class="w3-btn w3-white w3-border w3-round-large w3-xlarge" style="
+                            border-color:#57c7bc !important;
+                        ">تحميل <i class="fas fa-download heartbeat"></i></a>
                         </div>
                     </div>
 
@@ -203,7 +207,7 @@
             padding: 20px;
         ">
                     <canvas class="img-fluid" dir="rtl" style="max-width: 100%;" id="imageCanvas" width="1200px"
-                    height="700px">
+                        height="700px">
                         <canvas id="canvasID" dir="rtl"></canvas>
                     </canvas>
                 </div>
@@ -294,7 +298,7 @@
                 <div class="col-lg-12 col-md-7 col-12 px-5 mb-3" style="
                 text-align: center;
             ">
-                      Z Company.© 2021 كل الحقوق محفوظة
+                    Z Company.© 2021 كل الحقوق محفوظة
 
 
                 </div>
@@ -308,9 +312,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="../js/plugins.js"></script>
-<!--     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
-    <script src="../js/03.js"></script>
+    <script src="../jS/03.JS"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
