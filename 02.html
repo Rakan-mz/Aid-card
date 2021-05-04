@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <link rel="shortcut icon" href="img/ICON.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 
@@ -24,8 +25,8 @@
     <div id="loader-wrapper">
         <div id="loader"></div>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+        <div class="loader-section"></div>
+        <div class="loader-section"></div>
 
     </div>
     <nav class="navbar navbar-expand-lg">
@@ -84,7 +85,7 @@
                 <div class="tm-bg-gray tm-video-details">
 
                     <div class="mb-4">
-                        <h3 class="tm-text-gray-dark mb-3">الرجاء كتابة الأسم ثم قم بتحميل الصورة 🥳</h3>
+                        <h3 class="tm-text-gray-dark mb-3">الرجاء كتابة الأسم ثم قم بتحميل الصورة</h3>
                     </div>
 
                     <div class="page-wrap">
@@ -146,10 +147,12 @@
                         </div>
 
                         <div class="text-center mt-5">
-                            <a type="submit" id="downloadLnk" download="02.jpg" class="buttonDownload "> تحميل </a>
+                            <a id="downloadLnk" download="01.jpg"
+                                class="w3-btn w3-white w3-border w3-round-large w3-xlarge" style="
+                            border-color:#57c7bc !important;
+                        ">تحميل <i class="fas fa-download heartbeat"></i></a>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="col-xl-6 col-lg-5 col-md-6 col-sm-12" style="
@@ -216,7 +219,8 @@
             </div>
 
         </div> <!-- row -->
-    </div> <!-- container-fluid, tm-container-content -->
+    </div>
+    <!-- container-fluid, tm-container-content -->
 
     <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer" style="
     DIRECTION: RTL;
@@ -266,7 +270,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="../js/plugins.js"></script>
-<!--     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
     <script src="../js/02.js"></script>
 
