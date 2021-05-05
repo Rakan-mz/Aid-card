@@ -1044,6 +1044,9 @@ select:not([multiple]) {
         margin: -15px;
 
     }
+    .social{
+        padding-left: 27vw !important;
+    }
 }
 
 @media (max-width: 400px) {
