@@ -7,7 +7,7 @@ var ctx = canvas.getContext('2d');
 var img = new Image();
 img.crossOrigin = "anonymous";
 
-var x = 420;
+var x = 370;
 var y = 600;
 
 
