@@ -1,10 +1,4 @@
-/*
-    
-TemplateMo 556 Catalog-Z
 
-https://templatemo.com/tm-556-catalog-z
-
-*/
 body,
 h1,
 h2,
@@ -1043,6 +1037,12 @@ select:not([multiple]) {
 
     .tm-people-row {
         max-width: 420px;
+    }
+
+    #canvas-wrap {
+        padding: 0 !important;
+        margin: -15px;
+
     }
 }
 
