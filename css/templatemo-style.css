@@ -1,4 +1,3 @@
-
 body,
 h1,
 h2,
@@ -1044,7 +1043,8 @@ select:not([multiple]) {
         margin: -15px;
 
     }
-    .social{
+
+    .social {
         padding-left: 27vw !important;
     }
 }
@@ -1090,7 +1090,7 @@ select:not([multiple]) {
     border-radius: 50%;
     color: white;
     transition: background 0.5s ease;
-    background: #57c7bc;
+    background: #666666;
 }
 
 #up:hover {
@@ -1128,7 +1128,7 @@ select:not([multiple]) {
     border-radius: 50%;
     color: white;
     transition: background 0.5s ease;
-    background: #57c7bc;
+    background: #666666;
 }
 
 #right:hover {
@@ -1167,7 +1167,7 @@ select:not([multiple]) {
     border-radius: 50%;
     color: white;
     transition: background 0.5s ease;
-    background: #57c7bc;
+    background: #666666;
 }
 
 #left:hover {
@@ -1206,7 +1206,7 @@ select:not([multiple]) {
     border-radius: 50%;
     color: white;
     transition: background 0.5s ease;
-    background: #57c7bc;
+    background: #666666;
 }
 
 #down:hover {
@@ -1334,7 +1334,7 @@ select:not([multiple]) {
 
 .bb {
 
-    border-color: #57c7bc !important;
+    border-color: #ffffff !important;
     font-size: 24px !important;
     display: inline-block;
     padding: 8px 16px;
@@ -1342,12 +1342,13 @@ select:not([multiple]) {
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    background-color: #fff !important;
+    background-color: #15776d !important;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
     border-radius: 8px;
-    border: 1px solid #57c7bc !important;
+    border: 1px solid #f3f6f5 !important;
+    color: white;
 
 }
 
