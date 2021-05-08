@@ -230,3 +230,4 @@ function download() {
     this.href = dt;
 };
 downloadLnk.addEventListener('click', download, false);
+downloadLnk1.addEventListener('click', download, false);
