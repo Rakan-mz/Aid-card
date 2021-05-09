@@ -50,7 +50,7 @@ var myGamePiece;
 
 function startGame() {
     var words = "heloo woeweelrd"
-//     myGamePiece = new component("red", 10, 10, words);
+    myGamePiece = new component("red", 10, 10, words);
     myGameArea.start();
 }
 
